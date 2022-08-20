@@ -1,0 +1,25 @@
+{
+  "name": "Job-Recorder",
+  "description": "Record job information and store in file for future use.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "contextMenus"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/icon16.PNG",
+      "32": "/images/icon32.PNG",
+      "48": "/images/icon48.PNG",
+      "128": "/images/icon128.PNG"
+    }
+  },
+  "icons": {
+    "16": "/images/icon16.PNG",
+    "32": "/images/icon32.PNG",
+    "48": "/images/icon48.PNG",
+    "128": "/images/icon128.PNG"
+  }
+}

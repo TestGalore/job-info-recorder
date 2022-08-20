@@ -1,0 +1,15 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+}
+
+#cover{
+  position: absolute;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  margin: 0.5rem 0.5rem;
+}
